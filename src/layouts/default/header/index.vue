@@ -104,6 +104,7 @@
     },
     setup(props) {
       const { prefixCls } = useDesign('layout-header');
+      console.warn(prefixCls);
       const {
         getShowTopMenu,
         getShowHeaderTrigger,

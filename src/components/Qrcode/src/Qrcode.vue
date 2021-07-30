@@ -97,12 +97,12 @@
       watch(
         props,
         () => {
-          createQrcode()
+          createQrcode();
         },
         {
           deep: true,
         }
-      )
+      );
 
       return { wrapRef, download };
     },

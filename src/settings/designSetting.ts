@@ -19,6 +19,7 @@ export const APP_PRESET_COLOR_LIST: string[] = [
 
 // header preset color
 export const HEADER_PRESET_BG_COLOR_LIST: string[] = [
+  '#DA281C',
   '#ffffff',
   '#151515',
   '#009688',
