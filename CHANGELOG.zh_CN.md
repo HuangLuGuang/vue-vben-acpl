@@ -2,6 +2,7 @@
 
 - **Preview** 添加新的属性及事件
 - **Dark Theme** 新增对 tailwindcss 夜间模式的支持
+- **其它** 为 useLoading 添加 setTip 方法
 
 ### 🐛 Bug Fixes
 
@@ -9,6 +10,7 @@
 - **ImgRotateDragVerify** 修复组件`resume`方法无法调用的问题
 - **TableAction** 修复 stopButtonPropagation 属性某些情况下不起作用的问题
 - **PageWrapper** 修复`class`属性无效的问题
+- **BasicTree** 修复`checkAll`方法会影响到`disabled`状态节点的问题
 - **BasicTable**
   - 修复可编辑单元格不支持`ellipsis`配置的问题
   - 修复全屏模式下看不到子组件弹出层（popconfirm 以及 select、treeSelect 等编辑组件）的问题
