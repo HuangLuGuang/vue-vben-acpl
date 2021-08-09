@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center justify-center py-8 bg-white">
     <img
-      src="src/assets/images/kpi/one_cummins.png"
+      src="../../assets/images/kpi/one_cummins.png"
       alt="planets"
       usemap="#plantmap"
       @click="doclick($event)"
